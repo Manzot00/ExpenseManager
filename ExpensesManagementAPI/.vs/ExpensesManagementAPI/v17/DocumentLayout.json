@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Utente\\AppData\\Roaming\\Microsoft\\UserSecrets\\2442a5fe-f4a6-4601-a88f-0e4cdedda953\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\controllers\\rpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\controllers\\rpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\models\\regularpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\models\\regularpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\models\\globalcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\models\\globalcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|d:\\univerist\u00E0\\c#\\expensesmanagementapi\\expensesmanagementapi\\models\\usercategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5449783-3FEB-45F8-8948-799DAD55B7C1}|ExpensesManagementAPI\\ExpensesManagementAPI.csproj|solutionrelative:expensesmanagementapi\\models\\usercategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Models\\UserRole.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\UserRole.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Models\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:35:56.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\AppData\\Roaming\\Microsoft\\UserSecrets\\2442a5fe-f4a6-4601-a88f-0e4cdedda953\\secrets.json",
+              "ToolTip": "C:\\Users\\Utente\\AppData\\Roaming\\Microsoft\\UserSecrets\\2442a5fe-f4a6-4601-a88f-0e4cdedda953\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T15:11:19.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\appsettings.json",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\appsettings.json",
+              "RelativeToolTip": "ExpensesManagementAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T15:11:06.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RPController.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Controllers\\RPController.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Controllers\\RPController.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Controllers\\RPController.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Controllers\\RPController.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAIwAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T14:59:15.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegularPayment.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\RegularPayment.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Models\\RegularPayment.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\RegularPayment.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Models\\RegularPayment.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T14:56:41.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAAA4wDYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T10:38:41.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Income.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\Income.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Models\\Income.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\Income.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Models\\Income.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T09:34:56.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Models\\Expense.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\Expense.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Models\\Expense.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:52:13.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Controllers\\ExpenseController.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Controllers\\ExpenseController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:55:44.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IncomeController.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Controllers\\IncomeController.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Controllers\\IncomeController.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Controllers\\IncomeController.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Controllers\\IncomeController.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAcwHIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T18:11:09.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAkwCQBAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T09:45:45.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GlobalCategory.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\GlobalCategory.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Models\\GlobalCategory.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\GlobalCategory.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Models\\GlobalCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T11:32:47.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserCategory.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\UserCategory.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Models\\UserCategory.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Models\\UserCategory.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Models\\UserCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T11:33:01.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ExpensesManagementAPI\\Program.cs",
+              "ToolTip": "D:\\Univerist\u00E0\\C#\\ExpensesManagementAPI\\ExpensesManagementAPI\\Program.cs",
+              "RelativeToolTip": "ExpensesManagementAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T14:21:31.156Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

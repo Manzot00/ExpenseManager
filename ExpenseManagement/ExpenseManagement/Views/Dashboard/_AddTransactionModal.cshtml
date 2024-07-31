@@ -1,0 +1,50 @@
+﻿@model ExpenseManagement.Models.AddTransactionModel
+
+<div class="modal fade" id="addTransactionModal" tabindex="-1" role="dialog" aria-labelledby="addTransactionModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addTransactionModalLabel">Add Transaction</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="addTransactionForm" method="post">
+                    <input type="hidden" id="addTransactionId" name="Id">
+                    <div class="form-group mb-3">
+                        <label asp-for="Name"></label>
+                        <input type="text" class="form-control" id="transactionName" asp-for="Name" required>
+                        <span class="text-danger" asp-validation-for="Name"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Amount"></label>
+                        <input type="number" step="0.01" class="form-control no-spinners" id="transactionAmount" asp-for="Amount" required>
+                        <span class="text-danger" asp-validation-for="Amount"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="CategoryId">Category</label>
+                        <div class="custom-select-wrapper">
+                            <select class="form-control custom-select" id="transactionCategory" asp-for="CategoryId" required>
+                                <option value="" disabled selected>Select a category</option>
+                            </select>
+                        </div>
+                        <span class="text-danger" asp-validation-for="CategoryId"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Date"></label>
+                        <input type="date" class="form-control" id="transactionDate" asp-for="Date" value="@DateTime.Now.ToString("yyyy-MM-dd")" required>
+                        <span class="text-danger" asp-validation-for="Date"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Note"></label>
+                        <textarea class="form-control" id="transactionNote" asp-for="Note"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary ml-auto" data-bs-dismiss="modal">Close</button>
+                        <button type="button" id="submitTransaction" class="btn btn-primary mr-auto">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,22 @@
+﻿@model ExpenseManagement.Models.DeleteModel
+
+<div class="modal fade" id="deleteCategoryModal" tabindex="-1" role="dialog" aria-labelledby="deleteCategoryModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteCategoryModalLabel">Delete Category</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="deleteCategoryForm" method="post">
+                    <input type="hidden" id="deleteCategoryId" name="Id" asp-for="Id" />
+                    <p id="text">Are you sure you want to delete this Category?</p>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" id="confirmDeleteCategory" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>

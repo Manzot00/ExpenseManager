@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+}
+
+<div class="container-fluid px-3 py-3 d-flex flex-column vh-100">
+    <div class="row mb-3">
+        <div class="col-12">
+            <div class="card shadow-sm border-0 home-logo-card w-100">
+                <div class="card-body d-flex align-items-end">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-piggy-bank icon-large me-3"></i>
+                        <h1 class="card-home-title mb-0 text-white">Expense Manager</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row flex-grow-1">
+        <div class="col-md-5 mb-3 mb-md-0">
+            <div class="div-card h-100 d-flex flex-column justify-content-center align-items-center">
+                <div class="content-wrapper">
+                    <h4 class="mb-4"><strong>Welcome to Expense Manager.</strong> The easiest way to manage your expenses.</h4>
+                    <a asp-controller="Home" asp-action="Login" class="btn btn-primary btn-lg">Login</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="div-card h-100 d-flex justify-content-center align-items-center">
+                <img src="~/lib/images/dashboard.PNG" alt="ExpenseManager Dashboard" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</div>

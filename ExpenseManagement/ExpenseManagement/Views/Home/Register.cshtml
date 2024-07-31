@@ -1,0 +1,59 @@
+﻿@model ExpenseManagement.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div>
+        <a asp-controller="Home" asp-action="Index" class="no-underline">
+            <div class="card shadow-sm border-0 mb-3 logo-card" style="width: 24rem; border-radius: 1rem;">
+                <div class="card-body text-center">
+                    <i class="bi bi-piggy-bank" style="font-size: 4rem; color: #fff; margin-right: 1rem;"></i>
+                    <h1 class="card-title mb-0" style="color: #fff;">Expense Manager</h1>
+                </div>
+            </div>
+        </a>
+        <div class="card shadow-sm border-0" style="width: 24rem; border-radius: 1rem;">
+            <div class="card-body">
+                <h4 class="card-title mb-4">Create an Account</h4>
+                <form asp-action="Register" method="post">
+                    <div class="form-group mb-3">
+                        <label asp-for="Username" class="control-label mb-2"></label>
+                        <input asp-for="Username" class="form-control" placeholder="Enter your username" />
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Email" class="control-label mb-2"></label>
+                        <input asp-for="Email" class="form-control" type="email" placeholder="Enter email address" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="ConfirmEmail" class="control-label mb-2"></label>
+                        <input asp-for="ConfirmEmail" class="form-control" type="email" placeholder="Confirm email address" />
+                        <span asp-validation-for="ConfirmEmail" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Password" class="control-label mb-2"></label>
+                        <input asp-for="Password" class="form-control" type="password" placeholder="Enter password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="ConfirmPassword" class="control-label mb-2"></label>
+                        <input asp-for="ConfirmPassword" class="form-control" type="password" placeholder="Confirm password" />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+                </form>
+                <div class="text-danger mt-2">
+                    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                </div>
+                <hr />
+                <div class="text-center mt-3">
+                    Already have an account? <a asp-controller="Home" asp-action="Login">Log in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

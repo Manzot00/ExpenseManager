@@ -1,0 +1,50 @@
+﻿@model ExpenseManagement.Models.EditTransactionModel
+
+<!-- Modale per modificare una transazione -->
+<div class="modal fade" id="editTransactionModal" tabindex="-1" role="dialog" aria-labelledby="editTransactionModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editTransactionModalLabel">Edit Transaction</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="editTransactionForm" method="post">
+                    <input type="hidden" id="editTransactionId" name="Id" asp-for="Id">
+                    <div class="form-group mb-3">
+                        <label asp-for="Name"></label>
+                        <input type="text" class="form-control" id="editTransactionName" asp-for="Name" required>
+                        <span class="text-danger" asp-validation-for="Name"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Amount"></label>
+                        <input type="number" step="0.01" class="form-control no-spinners" id="editTransactionAmount" asp-for="Amount" required>
+                        <span class="text-danger" asp-validation-for="Amount"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="CategoryId">Category</label>
+                        <div class="custom-select-wrapper">
+                            <select class="form-control custom-select" id="editTransactionCategory" asp-for="CategoryId" required>
+                                <option value="" disabled selected>Select a category</option>
+                            </select>
+                        </div>
+                        <span class="text-danger" asp-validation-for="CategoryId"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Date"></label>
+                        <input type="date" class="form-control" id="editTransactionDate" asp-for="Date" required>
+                        <span class="text-danger" asp-validation-for="Date"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Note"></label>
+                        <textarea class="form-control" id="editTransactionNote" asp-for="Note"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary ml-auto" data-bs-dismiss="modal">Close</button>
+                        <button type="button" id="submitEditTransaction" class="btn btn-primary mr-auto">Edit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

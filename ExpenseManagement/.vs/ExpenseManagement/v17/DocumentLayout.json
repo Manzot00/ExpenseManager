@@ -1,0 +1,727 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Utente\\AppData\\Roaming\\Microsoft\\UserSecrets\\bf02ea9c-bf28-4484-919d-a906282fb47a\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\swagger.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\swagger.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\controllers\\rpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\controllers\\rpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\models\\edittransactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\models\\edittransactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\services\\regularpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\services\\regularpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\services\\regularpaymentbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\services\\regularpaymentbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\services\\iregularpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\services\\iregularpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\filters\\customeauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\filters\\customeauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\shared\\_adminsidenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\shared\\_adminsidenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\shared\\_dashboardsidenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\shared\\_dashboardsidenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\admin\\_deleteglobalcategorymodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\admin\\_deleteglobalcategorymodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\admin\\_editglobalcategorymodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\admin\\_editglobalcategorymodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\category\\_editcategorymodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\category\\_editcategorymodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\category\\_deletecategorymodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\category\\_deletecategorymodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\models\\deleteglobalcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\models\\deleteglobalcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\models\\deletemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\models\\deletemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\models\\editcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\models\\editcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\models\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\models\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\swagger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\swagger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\models\\editglobalcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\models\\editglobalcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\shared\\_addcategorymodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\shared\\_addcategorymodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\models\\addcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\models\\addcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\rp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\rp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\rp\\_addrpmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\rp\\_addrpmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\rp\\_editrpmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\rp\\_editrpmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\models\\editregularpaymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\models\\editregularpaymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\views\\rp\\_deleterpmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\views\\rp\\_deleterpmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|c:\\users\\utente\\source\\repos\\expensemanagement\\expensemanagement\\models\\addregularpaymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8754BC-BF48-4254-A25A-9AA5F51BB19B}|ExpenseManagement\\ExpenseManagement.csproj|solutionrelative:expensemanagement\\models\\addregularpaymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 27,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Swagger.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Swagger.json",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Swagger.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Swagger.json",
+              "RelativeToolTip": "ExpenseManagement\\Swagger.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T18:12:23.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditTransactionModel.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\EditTransactionModel.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Models\\EditTransactionModel.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\EditTransactionModel.cs",
+              "RelativeToolTip": "ExpenseManagement\\Models\\EditTransactionModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:18:37.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T14:17:51.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_DeleteCategoryModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Category\\_DeleteCategoryModal.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Category\\_DeleteCategoryModal.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Category\\_DeleteCategoryModal.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Category\\_DeleteCategoryModal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:59:13.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_DeleteGlobalCategoryModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Admin\\_DeleteGlobalCategoryModal.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Admin\\_DeleteGlobalCategoryModal.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Admin\\_DeleteGlobalCategoryModal.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Admin\\_DeleteGlobalCategoryModal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:59:11.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DeleteGlobalCategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\DeleteGlobalCategoryModel.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Models\\DeleteGlobalCategoryModel.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\DeleteGlobalCategoryModel.cs",
+              "RelativeToolTip": "ExpenseManagement\\Models\\DeleteGlobalCategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:58:27.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Swagger.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Swagger.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Swagger.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Swagger.cs",
+              "RelativeToolTip": "ExpenseManagement\\Swagger.cs",
+              "ViewState": "AQIAAEABAAAAAAAAAADwv1sBAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:55:35.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_EditGlobalCategoryModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Admin\\_EditGlobalCategoryModal.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Admin\\_EditGlobalCategoryModal.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Admin\\_EditGlobalCategoryModal.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Admin\\_EditGlobalCategoryModal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:46:07.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EditGlobalCategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\EditGlobalCategoryModel.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Models\\EditGlobalCategoryModel.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\EditGlobalCategoryModel.cs",
+              "RelativeToolTip": "ExpenseManagement\\Models\\EditGlobalCategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:44:40.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_EditCategoryModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Category\\_EditCategoryModal.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Category\\_EditCategoryModal.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Category\\_EditCategoryModal.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Category\\_EditCategoryModal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:43:05.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T12:27:12.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteModel.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\DeleteModel.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Models\\DeleteModel.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\DeleteModel.cs",
+              "RelativeToolTip": "ExpenseManagement\\Models\\DeleteModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:22:34.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_AddCategoryModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Shared\\_AddCategoryModal.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Shared\\_AddCategoryModal.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Shared\\_AddCategoryModal.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Shared\\_AddCategoryModal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T12:22:00.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AddCategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\AddCategoryModel.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Models\\AddCategoryModel.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\AddCategoryModel.cs",
+              "RelativeToolTip": "ExpenseManagement\\Models\\AddCategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:21:29.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EditCategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\EditCategoryModel.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Models\\EditCategoryModel.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\EditCategoryModel.cs",
+              "RelativeToolTip": "ExpenseManagement\\Models\\EditCategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:21:26.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAJUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T10:33:17.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_AdminSideNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Shared\\_AdminSideNav.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Shared\\_AdminSideNav.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Shared\\_AdminSideNav.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Shared\\_AdminSideNav.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T10:29:13.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T10:27:27.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ExpenseManagement\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ExpenseManagement\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-19T09:46:29.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAK0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T09:42:21.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AdminViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\AdminViewModel.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Models\\AdminViewModel.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\AdminViewModel.cs",
+              "RelativeToolTip": "ExpenseManagement\\Models\\AdminViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:40:40.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ExpenseManagement\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAcwLQAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T08:17:00.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_DashboardSideNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Shared\\_DashboardSideNav.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Shared\\_DashboardSideNav.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Shared\\_DashboardSideNav.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Shared\\_DashboardSideNav.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T08:05:07.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "ExpenseManagement\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAUwE8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:26:11.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ExpenseManagement\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwJIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:26:08.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomeAuthorize.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Filters\\CustomeAuthorize.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Filters\\CustomeAuthorize.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Filters\\CustomeAuthorize.cs",
+              "RelativeToolTip": "ExpenseManagement\\Filters\\CustomeAuthorize.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:26:03.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "ExpenseManagement\\Services\\AuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:49:10.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "ExpenseManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\appsettings.json",
+              "RelativeToolTip": "ExpenseManagement\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T15:10:19.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\AppData\\Roaming\\Microsoft\\UserSecrets\\bf02ea9c-bf28-4484-919d-a906282fb47a\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\bf02ea9c-bf28-4484-919d-a906282fb47a\\secrets.json",
+              "ToolTip": "C:\\Users\\Utente\\AppData\\Roaming\\Microsoft\\UserSecrets\\bf02ea9c-bf28-4484-919d-a906282fb47a\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\bf02ea9c-bf28-4484-919d-a906282fb47a\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T15:08:49.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ExpenseManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAmwFIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:07:24.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegularPaymentBackgroundService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Services\\RegularPaymentBackgroundService.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Services\\RegularPaymentBackgroundService.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Services\\RegularPaymentBackgroundService.cs",
+              "RelativeToolTip": "ExpenseManagement\\Services\\RegularPaymentBackgroundService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwB8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:18:25.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegularPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Services\\RegularPaymentService.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Services\\RegularPaymentService.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Services\\RegularPaymentService.cs",
+              "RelativeToolTip": "ExpenseManagement\\Services\\RegularPaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:15:26.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRegularPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Services\\IRegularPaymentService.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Services\\IRegularPaymentService.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Services\\IRegularPaymentService.cs",
+              "RelativeToolTip": "ExpenseManagement\\Services\\IRegularPaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:14:52.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Program.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Program.cs",
+              "RelativeToolTip": "ExpenseManagement\\Program.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:02:47.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IncomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\IncomeController.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Controllers\\IncomeController.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\IncomeController.cs",
+              "RelativeToolTip": "ExpenseManagement\\Controllers\\IncomeController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAcwGEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T12:59:10.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Controllers\\ExpenseController.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "ExpenseManagement\\Controllers\\ExpenseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T12:55:12.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAwwEsCAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T12:48:31.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AddRegularPaymentModel.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\AddRegularPaymentModel.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Models\\AddRegularPaymentModel.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\AddRegularPaymentModel.cs",
+              "RelativeToolTip": "ExpenseManagement\\Models\\AddRegularPaymentModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T12:20:55.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EditRegularPaymentModel.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\EditRegularPaymentModel.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Models\\EditRegularPaymentModel.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Models\\EditRegularPaymentModel.cs",
+              "RelativeToolTip": "ExpenseManagement\\Models\\EditRegularPaymentModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T12:45:47.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_EditRPModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\RP\\_EditRPModal.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\RP\\_EditRPModal.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\RP\\_EditRPModal.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\RP\\_EditRPModal.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T12:44:39.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_DeleteRPModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\RP\\_DeleteRPModal.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\RP\\_DeleteRPModal.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\RP\\_DeleteRPModal.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\RP\\_DeleteRPModal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T12:39:01.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_AddRPModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\RP\\_AddRPModal.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\RP\\_AddRPModal.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\RP\\_AddRPModal.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\RP\\_AddRPModal.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T09:11:58.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\RP\\Index.cshtml",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Views\\RP\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Views\\RP\\Index.cshtml",
+              "RelativeToolTip": "ExpenseManagement\\Views\\RP\\Index.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAwFsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T14:48:17.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RPController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\RPController.cs",
+              "RelativeDocumentMoniker": "ExpenseManagement\\Controllers\\RPController.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\ExpenseManagement\\ExpenseManagement\\Controllers\\RPController.cs",
+              "RelativeToolTip": "ExpenseManagement\\Controllers\\RPController.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAqwBgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T14:54:15.734Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

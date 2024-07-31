@@ -1,0 +1,588 @@
+﻿@model ExpenseManagement.Models.DashboardViewModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "_DashboardSideNav";
+}
+
+<div>
+    <h2>Welcome, @ViewBag.Username!</h2>
+    <div class="horizontal-nav mb-2">
+        <a href="#" class="filter-button" data-filter="previous"><i class="bi bi-chevron-left"></i></a>
+        <a href="#" class="filter-button" data-filter="day">Day</a>
+        <a href="#" class="filter-button" data-filter="week">Week</a>
+        <a href="#" class="filter-button" data-filter="month">Month</a>
+        <a href="#" class="filter-button" data-filter="year">Year</a>
+        <a href="#" class="filter-button" data-filter="custom"><i class="bi bi-calendar"></i></a>
+        <a href="#" class="filter-button" data-filter="next"><i class="bi bi-chevron-right"></i></a>
+    </div>
+    <!-- Date range picker for custom filter -->
+    <div id="custom-date-picker" style="display: none;">
+        <label for="start-date" style="color: #b3b3b3;">Start Date:</label>
+        <input type="date" id="start-date" >
+        <label for="end-date" style="color: #b3b3b3;">End Date:</label>
+        <input type="date" id="end-date" >
+        <button id="apply-custom-filter" class="btn btn-primary btn-sm">Apply</button>
+    </div>
+    <h5 id="date-display" class="text-center mb-2"></h5>
+    <div class="row">
+        <div class="col-md-6 mb-2">
+            <div class="div-card"">
+                <h3>
+                    Expenses
+                </h3>
+                <div class="chart-container">
+                    <canvas id="expensePieChart"></canvas>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#addTransactionModal" data-title="Add Expense" data-controller="Expense" data-action="CreateExpense">
+                        Add <i class="bi bi-plus"></i>
+                    </button>
+                    <h5>Total: <span id="totalExpenses"></span></h5>
+                </div>
+                <table class="table table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Amount</th>
+                            <th>Category</th>
+                            <th>Date</th>
+                            <th>Note</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="expense-table">
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6 mb-2">
+            <div class="div-card">
+                <h3>
+                    Income
+                </h3>
+                <div class="chart-container">
+                    <canvas id="incomePieChart"></canvas>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#addTransactionModal" data-title="Add Income" data-controller="Income" data-action="CreateIncome">
+                        Add <i class="bi bi-plus"></i>
+                    </button>
+                    <h5>Total: <span id="totalIncome"></span></h5>
+                </div>
+                <table class="table table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Amount</th>
+                            <th>Category</th>
+                            <th>Date</th>
+                            <th>Note</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="income-table">
+                   
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col d-flex justify-content-center align-items-center">
+            <h4>Balance: </h4>
+            <h4 id="balance"></h4>
+        </div>
+    </div>
+</div>
+
+<!-- Include the modal partial view -->
+<div>
+    @await Html.PartialAsync("_AddTransactionModal", new ExpenseManagement.Models.AddTransactionModel())
+    @await Html.PartialAsync("_EditTransactionModal", new ExpenseManagement.Models.EditTransactionModel())
+    @await Html.PartialAsync("_DeleteTransactionModal", new ExpenseManagement.Models.DeleteModel())
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            $('#addTransactionModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var title = button.data('title');
+                var controller = button.data('controller');
+                var action = button.data('action');
+
+                var modal = $(this);
+                modal.find('.modal-title').text(title);
+                modal.find('form').attr('action', '/' + controller + '/' + action);
+
+                var categorySelect = modal.find('#transactionCategory');
+                var categories;
+
+                var categories = controller === 'Income'
+                    ? @Html.Raw(Json.Serialize(ViewBag.IncomeCategories))
+                    : @Html.Raw(Json.Serialize(ViewBag.ExpenseCategories));
+
+                categorySelect.empty();
+                var defaultOption = document.createElement('option');
+                defaultOption.value = '';
+                defaultOption.text = 'Select a category';
+                defaultOption.disabled = true;
+                defaultOption.selected = true;
+                categorySelect.append(defaultOption);
+
+                $.each(categories, function (index, category) {
+                    var option = document.createElement('option');
+                    option.value = category.id;
+                    option.text = category.name;
+                    categorySelect.append(option);
+                });
+            });
+
+            $('#submitTransaction').click(function () {
+				$('#addTransactionForm').submit();
+			});
+
+            $('#editTransactionModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var id = button.data("id")
+                var title = button.data('title');
+                var controller = button.data('controller');
+                var action = button.data('action');
+                var transactionData = button.data('transaction');
+
+                $.ajax({
+                    url: '/' + controller + '/' + transactionData, // Endpoint to get the transaction details
+                    data: { id: id },
+                    success: function (data) {
+                        var modal = $('#editTransactionModal');
+                        modal.find('.modal-title').text(title);
+                        modal.find('form').attr('action', '/' + controller + '/' + action);
+
+                        // Populate the form with fetched data
+                        modal.find('#editTransactionId').val(id);
+                        modal.find('#editTransactionName').val(data.name);
+                        modal.find('#editTransactionAmount').val(data.amount);
+                        modal.find('#editTransactionCategory').val(data.categoryId);
+                        modal.find('#editTransactionDate').val(new Date(data.date).toISOString().substring(0, 10));
+                        modal.find('#editTransactionNote').val(data.note);
+
+                        // Populate the category select
+                        var categories = controller === 'Expense'
+                            ? @Html.Raw(Json.Serialize(ViewBag.ExpenseCategories))
+                            : @Html.Raw(Json.Serialize(ViewBag.IncomeCategories));
+
+                        var categorySelect = modal.find('#editTransactionCategory');
+
+                        categorySelect.empty();
+                        $.each(categories, function (index, category) {
+                            var option = document.createElement('option');
+                            option.value = category.id;
+                            option.text = category.name;
+                            categorySelect.append(option);
+                        });
+                        categorySelect.val(data.categoryId);
+                    }
+                });
+            });
+
+            $('#submitEditTransaction').click(function () {
+                $('#editTransactionForm').submit();
+            });
+
+            $('#deleteTransactionModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var id = button.data('id');
+                var title = button.data('title');
+                var controller = button.data('controller');
+                var action = button.data('action');
+
+                var modal = $(this);
+                modal.find('.modal-title').text(title);
+                modal.find('form').attr('action', '/' + controller + '/' + action);
+                modal.find('#text').text('Are you sure you want to delete this ' + controller.toLowerCase() + '?');
+                modal.find('#deleteTransactionId').val(id);
+            });
+
+            $('#confirmDeleteTransaction').click(function () {
+                $('#deleteTransactionForm').submit();
+            });
+
+            // Prepare data for pie charts
+            var expenseCategoryData = @Html.Raw(Json.Serialize(ViewBag.ExpenseCategoryData));
+            var incomeCategoryData = @Html.Raw(Json.Serialize(ViewBag.IncomeCategoryData));
+
+            var expenseLabels = expenseCategoryData.map(function (item) { return item.category; });
+            var expenseAmounts = expenseCategoryData.map(function (item) { return item.total; });
+
+            var incomeLabels = incomeCategoryData.map(function (item) { return item.category; });
+            var incomeAmounts = incomeCategoryData.map(function (item) { return item.total; });
+
+            var colors = [
+                '#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c',
+                '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a', '#ffff99', '#b15928'
+            ];
+
+            // Create expense pie chart
+            var ctxExpense = document.getElementById('expensePieChart').getContext('2d');
+            var expensePieChart = new Chart(ctxExpense, {
+                type: 'pie',
+                data: {
+                    labels: expenseLabels,
+                    datasets: [{
+                        data: expenseAmounts,
+                        backgroundColor: colors.slice(0, expenseLabels.length)
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'right',
+                            labels: {
+                                boxWidth: 20,
+                                padding: 20,
+                                usePointStyle: true,
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function (context) {
+                                    var label = context.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.parsed !== null) {
+                                        label += context.parsed;
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Create income pie chart
+            var ctxIncome = document.getElementById('incomePieChart').getContext('2d');
+            var incomePieChart = new Chart(ctxIncome, {
+                type: 'pie',
+                data: {
+                    labels: incomeLabels,
+                    datasets: [{
+                        data: incomeAmounts,
+                        backgroundColor: colors.slice(0, incomeLabels.length)
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'right',
+                            labels: {
+                                boxWidth: 20,
+                                padding: 20,
+                                usePointStyle: true,
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function (context) {
+                                    var label = context.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.parsed !== null) {
+                                        label += context.parsed;
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            var expenses = @Html.Raw(Json.Serialize(Model.Expenses));
+            var income = @Html.Raw(Json.Serialize(Model.Income));
+
+            function filterTransactions(transactions, filter, date, startDate = null, endDate = null) {
+                var filteredTransactions = [];
+                transactions.forEach(function (transaction) {
+                    var transactionDate = new Date(transaction.date);
+                    switch (filter) {
+                        case 'day':
+                            if (transactionDate.toDateString() === date.toDateString()) {
+                                filteredTransactions.push(transaction);
+                            }
+                            break;
+                        case 'week':
+                            var startOfWeek = new Date(date);
+                            var day = startOfWeek.getDay() || 7;
+                            if (day !== 1) {
+                                startOfWeek.setHours(-24 * (day - 1));
+                            }
+                            startOfWeek.setHours(0, 0, 0, 0);
+                            var endOfWeek = new Date(startOfWeek);
+                            endOfWeek.setDate(startOfWeek.getDate() + 6);
+                            if (transactionDate >= startOfWeek && transactionDate <= endOfWeek) {
+                                filteredTransactions.push(transaction);
+                            }
+                            break;
+                        case 'month':
+                            if (transactionDate.getMonth() === date.getMonth() && transactionDate.getFullYear() === date.getFullYear()) {
+                                filteredTransactions.push(transaction);
+                            }
+                            break;
+                        case 'year':
+                            if (transactionDate.getFullYear() === date.getFullYear()) {
+                                filteredTransactions.push(transaction);
+                            }
+                            break;
+                        case 'custom':
+                            if (startDate && endDate && transactionDate >= new Date(startDate) && transactionDate <= new Date(endDate)) {
+                                filteredTransactions.push(transaction);
+                            }
+                            break;
+                    }
+                });
+                return filteredTransactions;
+            }
+
+            function updateTotalsAndBalance(filteredExpenses, filteredIncome) {
+                var totalExpenses = filteredExpenses.reduce(function (acc, expense) {
+                    return acc + expense.amount;
+                }, 0);
+
+                var totalIncome = filteredIncome.reduce(function (acc, income) {
+                    return acc + income.amount;
+                }, 0);
+
+                var balance = totalIncome - totalExpenses;
+                
+                $('#totalExpenses').text('$' + totalExpenses);
+                $('#totalIncome').text('$' + totalIncome);
+
+                balanceElement = $('#balance');
+                balanceElement.removeClass('text-success text-danger text-muted');
+                balanceElement.text(' $' + balance.toFixed(2));
+                if (balance > 0) {
+                    balanceElement.addClass('text-success');
+                } else if (balance < 0) {
+                    balanceElement.addClass('text-danger');
+                } else {
+                    balanceElement.addClass('text-muted');
+                }
+            }
+
+            function updateTable(transactions, tableBodySelector, type) {
+                var tableBody = document.querySelector(tableBodySelector);
+                tableBody.innerHTML = '';
+
+                if (transactions.length === 0) {
+                    tableBody.innerHTML = '<tr><td colspan="6" style="text-align: center;">No data available</td></tr>';
+                    return;
+                }
+
+                transactions.forEach(function (transaction) {
+                    var row = document.createElement('tr');
+
+                    var controller = type === 'Expense' ? 'Expense' : 'Income';
+                    var getTransaction = type === 'Expense' ? 'GetExpense' : 'GetIncome';
+                    var editTransaction = type === 'Expense' ? 'EditExpense' : 'EditIncome';
+                    var deleteTransaction = type === 'Expense' ? 'DeleteExpense' : 'DeleteIncome';
+
+                    var note = transaction.note ? transaction.note : '';
+
+                    row.innerHTML = `
+                    <td>${transaction.name}</td>
+                    <td>$${transaction.amount}</td>
+                    <td>${transaction.categoryName}</td>
+                    <td>${new Date(transaction.date).toISOString().substring(0, 10)}</td>
+                    <td>${note}</td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-sm" data-id="${transaction.id}" data-transaction="${getTransaction}" data-bs-toggle="modal" data-bs-target="#editTransactionModal" data-title="Edit ${type}" data-controller="${controller}" data-action="${editTransaction}">
+                            <i class="bi bi-pencil"></i> Edit
+                        </button>
+                        <button type="button" class="btn btn-danger btn-sm" data-id="${transaction.id}" data-bs-toggle="modal" data-bs-target="#deleteTransactionModal" data-title="Delete ${type}" data-controller="${controller}" data-action="${deleteTransaction}">
+                            <i class="bi bi-trash"></i> Delete
+                        </button>
+                    </td>
+                `;
+
+                    tableBody.appendChild(row);
+                });
+            }
+
+            function updateCharts(filteredExpenses, filteredIncome) {
+                // Funzione per raggruppare e sommare le transazioni per categoria
+                function groupByCategory(transactions) {
+                    var categoryMap = new Map();
+
+                    transactions.forEach(function (transaction) {
+                        if (categoryMap.has(transaction.categoryName)) {
+                            categoryMap.get(transaction.categoryName).total += transaction.amount;
+                        } else {
+                            categoryMap.set(transaction.categoryName, {
+                                category: transaction.categoryName,
+                                total: transaction.amount
+                            });
+                        }
+                    });
+
+                    return Array.from(categoryMap.values());
+                }
+
+                $('#expensePieChart, #incomePieChart').show();
+                $('#no-data-message').hide();
+
+                // Raggruppa e somma le transazioni per categoria
+                var groupedExpenses = groupByCategory(filteredExpenses);
+                var groupedIncome = groupByCategory(filteredIncome);
+
+                // Crea i dati per i grafici
+                var expenseLabels = groupedExpenses.map(function (item) { return item.category; });
+                var expenseAmounts = groupedExpenses.map(function (item) { return item.total; });
+
+                var incomeLabels = groupedIncome.map(function (item) { return item.category; });
+                var incomeAmounts = groupedIncome.map(function (item) { return item.total; });
+
+                // Aggiorna i dati del grafico delle spese
+                expensePieChart.data.labels = expenseLabels;
+                expensePieChart.data.datasets[0].data = expenseAmounts;
+                expensePieChart.update();
+
+                // Aggiorna i dati del grafico delle entrate
+                incomePieChart.data.labels = incomeLabels;
+                incomePieChart.data.datasets[0].data = incomeAmounts;
+                incomePieChart.update();
+            }
+
+            function updateDateDisplay(filter, currentDate) {
+                var dateDisplay = $('#date-display');
+                var displayText = '';
+
+                switch (filter) {
+                    case 'day':
+                        displayText = currentDate.toLocaleDateString();
+                        break;
+                    case 'week':
+                        var startOfWeek = new Date(currentDate);
+                        var day = startOfWeek.getDay() || 7;
+                        if (day !== 1) {
+                            startOfWeek.setDate(startOfWeek.getDate() - (day - 1));
+                        }
+                        displayText = startOfWeek.toLocaleDateString();
+                        break;
+                    case 'month':
+                        displayText = (currentDate.getMonth() + 1) + '/' + currentDate.getFullYear();
+                        break;
+                    case 'year':
+                        displayText = currentDate.getFullYear();
+                        break;
+                    case 'custom':
+                        var startDate = $('#start-date').val();
+						var endDate = $('#end-date').val();
+						displayText = startDate + ' - ' + endDate;
+						break;
+                }
+
+                dateDisplay.text(displayText);
+            }
+
+            function updateActiveFilterButton(filter) {
+                $('.filter-button').removeClass('active');
+                $('.filter-button[data-filter="' + filter + '"]').addClass('active');
+            }
+
+            var currentDate = new Date();
+            var currentFilter = 'month';
+
+            document.querySelectorAll('.filter-button').forEach(function (button) {
+                button.addEventListener('click', function () {
+                    var filter = button.getAttribute('data-filter');
+
+                    if (filter === 'previous' || filter === 'next') {
+                        switch (currentFilter) {
+                            case 'day':
+                                currentDate.setDate(currentDate.getDate() + (filter === 'previous' ? -1 : 1));
+                                break;
+                            case 'week':
+                                currentDate.setDate(currentDate.getDate() + (filter === 'previous' ? -7 : 7));
+                                break;
+                            case 'month':
+                                currentDate.setMonth(currentDate.getMonth() + (filter === 'previous' ? -1 : 1));
+                                break;
+                            case 'year':
+                                currentDate.setFullYear(currentDate.getFullYear() + (filter === 'previous' ? -1 : 1));
+                                break;
+                        }
+                    } else if (filter === 'custom') {
+                        $('#custom-date-picker').toggle(); // Show or hide the custom date picker
+                        return; // Do not proceed further
+                    } else {
+                        currentFilter = filter;
+                        currentDate = new Date();
+                        updateActiveFilterButton(currentFilter);
+                    }
+
+                    var filteredExpenses = filterTransactions(expenses, currentFilter, currentDate);
+                    var filteredIncome = filterTransactions(income, currentFilter, currentDate);
+
+                    updateTable(filteredExpenses, '#expense-table', 'Expense');
+                    updateTable(filteredIncome, '#income-table', 'Income');
+                    updateTotalsAndBalance(filteredExpenses, filteredIncome);
+                    updateCharts(filteredExpenses, filteredIncome);
+                    updateDateDisplay(currentFilter, currentDate);
+                    $('#custom-date-picker').hide();
+                    $('.filter-button[data-filter="previous"], .filter-button[data-filter="next"]').show();
+                });
+            });
+
+            $('#apply-custom-filter').click(function () {
+                var startDate = $('#start-date').val();
+                var endDate = $('#end-date').val();
+
+                if (!startDate || !endDate) {
+                    alert("Please fill in both start and end dates.");
+                    return;
+                }
+
+                if (new Date(startDate) > new Date(endDate)) {
+                    alert("Start date cannot be greater than end date.");
+                    return;
+                }
+
+                currentFilter = 'custom';
+                updateActiveFilterButton(currentFilter);
+
+                var filteredExpenses = filterTransactions(expenses, currentFilter, currentDate, startDate, endDate);
+                var filteredIncome = filterTransactions(income, currentFilter, currentDate, startDate, endDate);
+
+                updateTable(filteredExpenses, '#expense-table', 'Expense');
+                updateTable(filteredIncome, '#income-table', 'Income');
+                updateTotalsAndBalance(filteredExpenses, filteredIncome);
+                updateCharts(filteredExpenses, filteredIncome);
+                updateDateDisplay(currentFilter, currentDate);
+                $('#custom-date-picker').hide();
+                $('.filter-button[data-filter="previous"], .filter-button[data-filter="next"]').hide();
+
+            });
+
+            var filteredExpenses = filterTransactions(expenses, 'month', currentDate);
+            var filteredIncome = filterTransactions(income, 'month', currentDate);
+            updateTable(filteredExpenses, '#expense-table', 'Expense');
+            updateTable(filteredIncome, '#income-table', 'Income');
+            updateTotalsAndBalance(filteredExpenses, filteredIncome);
+            updateCharts(filteredExpenses, filteredIncome);
+            updateDateDisplay(currentFilter, currentDate);
+            updateActiveFilterButton(currentFilter);
+        });
+    </script>
+}

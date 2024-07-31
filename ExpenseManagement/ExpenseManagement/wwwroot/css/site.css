@@ -1,0 +1,252 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.no-underline:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+a {
+    color: #1db954;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+.btn-primary {
+    background-color: #148a41;
+    border-color: #148a41;
+}
+
+.btn-primary:hover {
+    background-color: #127b3a;
+    border-color: #127b3a;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+}
+
+.card h4 {
+    color: #1db954;
+}
+
+.card .btn-primary {
+    background-color: #148a41;
+    border-color: #148a41;
+}
+
+.card .btn-primary:hover {
+    background-color: #127b3a;
+    border-color: #127b3a;
+}
+
+.logo-card {
+    background-color: #148a41;
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.home-logo-card {
+    background-color: #148a41;
+    height: 200px;
+    border-radius: 1rem !important;
+}
+
+.icon-large {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.card-home-title {
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.content-wrapper {
+    padding-left: 5%; /* Adjust this value as needed */
+    padding-right: 5%; /* Adjust this value as needed */
+}
+
+.img-fluid {
+    max-height: 90%;
+    width: auto;
+}
+
+.text-danger {
+    color: #ff4c4c;
+}
+
+.form-control {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #888;
+}
+
+.form-control:focus {
+    background-color: #2a2a2a;
+    border-color: #444;
+    color: #fff;
+}
+
+.form-control:active {
+    background-color: #2a2a2a;
+    border-color: #444;
+    color: #fff;
+}
+
+.modal-content {
+    background-color: #1c1c1c;
+    color: #b3b3b3;
+}
+
+.modal-header {
+    border-bottom: 1px solid #343a40;
+}
+
+.modal-footer {
+    border-top: 1px solid #343a40;
+}
+
+.btn-close-white {
+    background-color: #fff;
+    border: none;
+}
+
+.btn-close-white:hover {
+    background-color: #ddd;
+}
+
+.no-spinners {
+    -moz-appearance: textfield;
+}
+
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+}
+
+.chart-legend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.horizontal-nav {
+    width: 100%;
+    background-color: #1c1c1c;
+    overflow-x: hidden;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px; /* Angoli smussati */
+}
+
+.horizontal-nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #b3b3b3;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+.horizontal-nav a:hover, .horizontal-nav a.active {
+    background-color: #127b3a;
+    color: #fff;
+}
+
+.filter-button.active {
+    background-color: #127b3a; /* Colore di sfondo attivo */
+    color: #fff; /* Colore del testo attivo */
+}
+
+.horizontal-nav i {
+    margin-right: 5px; /* Adjust margin for better spacing */
+    font-size: 1.2rem;
+}
+
+.div-card {
+    border-radius: 15px; /* Angoli smussati */
+    padding: 10px;
+    background-color: #1c1c1c;
+}
+
+/* Personalizza gli input di tipo date per rispecchiare lo stile della pagina */
+input[type="date"] {
+    background-color: #1c1c1c;
+    color: #b3b3b3;
+    border: 1px solid #127b3a;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input[type="date"]::placeholder {
+    color: #b3b3b3;
+}
+
+input[type="date"]:focus {
+    outline: none;
+    border-color: #127b3a;
+    background-color: #1c1c1c;
+}
+
+#custom-date-picker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: #2c2c2c;
+    padding: 10px;
+    border-radius: 5px;
+}

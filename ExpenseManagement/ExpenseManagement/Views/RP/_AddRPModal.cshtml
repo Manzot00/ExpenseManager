@@ -1,0 +1,49 @@
+﻿@model ExpenseManagement.Models.AddRegularPaymentModel
+
+<div class="modal fade" id="addRPModal" tabindex="-1" role="dialog" aria-labelledby="addRPModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addRPModalLabel">Add Regular Payment</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="addRPForm" method="post" asp-controller="RP" asp-action="CreateRP">
+                    <input type="hidden" id="RPType" name="Type" asp-for="Type">
+                    <div class="form-group mb-3">
+                        <label asp-for="Name"></label>
+                        <input type="text" class="form-control" id="addRPName" asp-for="Name" required>
+                        <span class="text-danger" asp-validation-for="Name"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Amount"></label>
+                        <input type="number" step="0.01" class="form-control no-spinners" id="addRPAmount" asp-for="Amount" required>
+                        <span class="text-danger" asp-validation-for="Amount"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="CategoryId">Category</label>
+                        <div class="custom-select-wrapper">
+                            <select class="form-control custom-select" id="addRPCategory" asp-for="CategoryId" required>
+                                <option value="" disabled selected>Select a category</option>
+                            </select>
+                        </div>
+                        <span class="text-danger" asp-validation-for="CategoryId"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="RecurrenceDay"></label>
+                        <input type="number" class="form-control no-spinners" id="addRPRecurrenceDay" asp-for="RecurrenceDay" required>
+                        <span class="text-danger" asp-validation-for="RecurrenceDay"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Note"></label>
+                        <textarea class="form-control" id="addRPNote" asp-for="Note"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary ml-auto" data-bs-dismiss="modal">Close</button>
+                        <button type="button" id="submitRP" class="btn btn-primary mr-auto">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
